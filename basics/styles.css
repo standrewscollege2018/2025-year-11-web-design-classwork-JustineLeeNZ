@@ -1,0 +1,24 @@
+/* change background color and font for whole page */
+body {
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* change heading 1 colour and make italic */
+h1 {
+    color: blanchedalmond;
+    font-style: italic;
+}
+
+/* change link color and turn off underlining */
+a {
+    color:aqua;
+    text-decoration: none;
+}
+
+/* add underling back when link hovered over */
+a:hover {
+    text-decoration: underline;
+}
+
+
