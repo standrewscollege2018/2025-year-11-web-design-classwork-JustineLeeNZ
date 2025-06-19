@@ -1,0 +1,28 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* css grid styles */
+
+.content_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left_content {
+    background-color: #FF0000;
+}
+
+.right_content{
+    background-color: #FFFF00;
+}
+
+.extreme_right {
+    background-color: aquamarine;
+}
