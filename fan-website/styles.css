@@ -36,6 +36,10 @@ h3 {
   margin-top: 10px;
 }
 
+.highlight_heading {
+  color:aquamarine;
+}
+
 /*  sets left margin for both types of lists */
 ol, ul {
   padding-left: 20px;
@@ -66,7 +70,7 @@ img {
   display: grid;
 
   /* specifies number of columns plus their widths - this time it's a 1/4 to 3/4 ratio */
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 /* styling for left hand column - nav bar */
