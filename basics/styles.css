@@ -1,13 +1,27 @@
+/* set all margins and padding to zero with universal selector */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 /* change background color and font for whole page */
 body {
     background-color: chocolate;
     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p {
+    margin: 5px;
+    padding: 20px;
+
 }
 
 /* change heading 1 colour and make italic */
 h1 {
     color: blanchedalmond;
     font-style: italic;
+    margin-left:10px;
 }
 
 /* change link color and turn off underlining */
@@ -19,6 +33,47 @@ a {
 /* add underling back when link hovered over */
 a:hover {
     text-decoration: underline;
+}
+
+/* adding margins back to lists */
+ol {
+    margin-left: 20px;
+}
+
+/* specific class styles */
+/* makes this paragraph really stand out, used for key text in article */
+.standout {
+    color: #FFFF00;
+    font-style: oblique;
+}
+
+/* for text that doesn't fill whole width of page */
+.box {
+    background-color: crimson;
+    height: 200px;
+    width: 300px;
+}
+
+/* sets background layout for whole page */
+.container {
+    background-color: chartreuse;
+    width: 1000px;
+    margin: 10px 30px 10px 30px;
+}
+
+/* css grid styles */
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.left-content {
+    background-color: antiquewhite;
+}
+
+right-content{
+    background-color: #FFFF00;
 }
 
 
