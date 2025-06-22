@@ -8,6 +8,11 @@ body {
     background-color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
 /* css grid styles */
 
 .content_container {
@@ -25,4 +30,18 @@ body {
 
 .extreme_right {
     background-color: aquamarine;
+}
+
+/* grid styles for page with cards */
+.card_container {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.card {
+    background-color: blueviolet;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    border-radius: 20px;
 }
