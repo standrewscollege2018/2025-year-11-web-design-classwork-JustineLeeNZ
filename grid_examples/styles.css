@@ -41,9 +41,26 @@ img {
 }
 
 .card {
-    background-color: blueviolet;
+    background-color: rgb(226, 98, 43);
     margin: 10px;
     padding: 5px;
     color: white;
     border-radius: 20px;
+}
+
+/* changes to full screen width when under 500px */
+@media only screen and (max-width: 500px) {
+    .content_container {
+        display: grid;
+        grid-template-columns: 1fr;
+}
+
+    body {
+        font-size: 10px;
+    }
+
+    .left_content {
+        border: 5px;
+    }
+
 }
